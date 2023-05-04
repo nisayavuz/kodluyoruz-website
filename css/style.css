@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    /* background: #F5EAEA; */
+    background: #F9F9F9;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    color: #F16767;
+    font-size: 200%;
+    line-height: 120px;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.logo a{
+    line-height: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    
+    margin: 0 20px;
+    
+}
+nav ul li a{
+    color: #4D4D4D;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 80px;
+}
+nav ul li a:hover{
+    color: #D864A9;
+    transition-duration: 0.5ms;
+}
+
+.container{
+    width: 100%;
+    height: 750px; 
+    background-image: url("../images/bg-coldpurple.png");
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+
+}
+
+.giris{
+    width: 100%;
+    height: 750px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.giris > div{
+    width: 50%;
+    height: 600px;
+    /* background-color: #D864A9; */
+    margin: 1px;
+    float: left;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 70%;
+}
+
+.homepage-heading{
+    padding: 18% 0 0 10%;
+    font-size: 35px;
+    color: #F5EAEA;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+
+}
+.homepage-text{
+    padding: 3% 0% 0% 10%;
+    font-size: 18px;
+    font-weight: 500;
+    color: beige;
+    line-height: 1.6;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    background-color: #1111;
+}
+.footer-container{
+    width: 100%;
+    padding: 40px 20px 20px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+.socials a{
+    padding: 20px 10px 10px 10px;
+    margin: 20px;
+
+}
+.socials a i {
+    font-size: 2em;
+    color: black!important;
+}
+
+
+.socials a:hover i{
+    color: #D864A9!important;
+    transition-duration: 0.5ms;  
+    opacity: 1;
+}
+
+.footer-navbar{
+    margin: 30px 0;
+}
+.footer-navbar ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-navbar ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-navbar ul li a:hover{
+    color: #D864A9;
+    opacity: 1;
+}
+
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom span{
+    color:darkmagenta;
+    font-weight: 400;
+    margin: 0 5px;
+}
