@@ -101,13 +101,15 @@ nav ul li a:hover{
 
     height: 60px;
     width: 270px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px;
     box-sizing: border-box;
-    bottom: 47px;
+    bottom: 250px;
     position: absolute;
     border-radius: 25px;
-    background: rgba(27, 27, 27, 0.3);
+    background: rgba(255, 119, 0, 0.834);
+
+    /* background: rgba(27, 27, 27, 0.3); */
 }
 /* ffa559 */
 .text p{
@@ -165,10 +167,10 @@ nav ul li a:hover{
     color: white;
     padding: 15px;
     box-sizing: border-box;
-    bottom: -365px;
+    bottom: -165px;
     position: absolute;
     border-radius: 25px;
-    background: rgba(27, 27, 27, 0.3);
+    background: rgba(255, 119, 0, 0.834);
 }
 /* ffa559 */
 .text2 p{

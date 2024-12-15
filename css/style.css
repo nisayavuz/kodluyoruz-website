@@ -73,28 +73,32 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 500px;
 }
 
 .image img{
-    width: 70%;
+    width: 60%;
+    margin-top: -200px;
 }
 
 .homepage-heading{
     padding: 18% 0 0 10%;
     font-size: 35px;
     color: #F5EAEA;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Lora", serif;
+    font-style: italic;
     letter-spacing: 5px;
 
 }
 .homepage-text{
     padding: 3% 0% 0% 10%;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    font-style: italic;
     color: beige;
-    line-height: 1.6;
+    line-height: 2;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 footer{
